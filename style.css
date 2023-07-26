@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Additional styles for the dictionary results */
+.definition {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.meaning {
+    font-weight: bold;
+}
+
+.examples {
+    margin-top: 5px;
+}
+
+.examples h3 {
+    font-weight: bold;
+}
+
+.examples ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.examples li {
+    margin-bottom: 5px;
+}
+
+.no-results {
+    font-style: italic;
+}
+
+/* Autocomplete styles */
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.ui-menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.ui-menu-item:hover {
+    background-color: #f9f9f9;
+}
